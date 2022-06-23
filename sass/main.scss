@@ -1,0 +1,23 @@
+// ----------- base -----------
+@import './base/normalize';
+@import './base/null-stile';
+@import './base/variables-color';
+@import './base/base-style';
+
+// ----------- utils ----------
+@import './utils/section';
+@import './utils/container';
+
+// ----------- components -----
+@import './components/section-title';
+@import './components/section-description';
+
+// ----------- layouts --------
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/our-history';
+@import './layouts/about-us';
+@import './layouts/our-team';
+@import './layouts/what-we-do';
+@import './layouts/gallery';
+@import './layouts/footer';
