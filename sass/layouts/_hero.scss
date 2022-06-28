@@ -1,3 +1,17 @@
 .hero {
   background-color: var(--second-background-color);
 }
+
+.hero__container {
+  position: relative;
+}
+
+.hero-title {
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  color: #005781;
+  font-weight: 700;
+  font-size: 70px;
+  // opacity: 0.7;
+}

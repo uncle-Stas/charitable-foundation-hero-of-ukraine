@@ -185,10 +185,10 @@ address {
 }
 
 :root {
-  --background-color: #fdfdcc;
+  --background-color: #ffffff;
   --text-prime-color: #00185c;
   --second-background-color: #0051ff;
-  --text-yellow-color: #f3e306;
+  --text-yellow-color: #f4c320;
 }
 
 body {
@@ -264,6 +264,19 @@ body {
 
 .hero {
   background-color: var(--second-background-color);
+}
+
+.hero__container {
+  position: relative;
+}
+
+.hero-title {
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  color: #005781;
+  font-weight: 700;
+  font-size: 70px;
 }
 
 .our-history__img {
