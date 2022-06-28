@@ -232,7 +232,7 @@ body {
 
 .section__title {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   margin-bottom: 20px;
   letter-spacing: 0.02em;
 }
@@ -272,11 +272,43 @@ body {
 
 .hero-title {
   position: absolute;
-  bottom: 30px;
-  right: 25px;
+  bottom: 5px;
+  right: 20px;
   color: #005781;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 400px) {
+  .hero-title {
+    bottom: 5px;
+    right: 20px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero-title {
+    bottom: 5px;
+    right: 20px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    bottom: 15px;
+    right: 25px;
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    bottom: 30px;
+    right: 25px;
+    font-size: 60px;
+  }
 }
 
 .our-history__img {
