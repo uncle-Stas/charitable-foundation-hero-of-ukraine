@@ -1,0 +1,13 @@
+.transfer {
+  background-color: var(--text-yellow-color);
+}
+
+.section__description_bigger-font-size {
+  & span:first-child {
+    margin-bottom: 20px;
+  }
+  & span:not(:first-child) {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
