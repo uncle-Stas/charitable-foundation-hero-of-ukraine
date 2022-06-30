@@ -239,7 +239,6 @@ body {
   font-size: 30px;
   margin-bottom: 20px;
   letter-spacing: 0.02em;
-  background-color: aqua;
 }
 
 @media screen and (min-width: 768px) {
@@ -481,6 +480,10 @@ body {
   .contacts li:not(:last-child) {
     margin-bottom: 10px;
   }
+}
+
+.hero {
+  background-color: var(--text-yellow-color);
 }
 
 .hero__container {
