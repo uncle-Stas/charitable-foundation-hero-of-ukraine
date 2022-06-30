@@ -482,6 +482,10 @@ body {
   }
 }
 
+.hero {
+  background-color: var(--text-yellow-color);
+}
+
 .hero__container {
   position: relative;
 }
