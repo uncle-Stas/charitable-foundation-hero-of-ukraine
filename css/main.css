@@ -202,12 +202,12 @@ body {
 }
 
 .section {
-  padding: 50px 0 25px 0;
+  padding: 75px 0 35px 0;
 }
 
 @media screen and (min-width: 768px) {
   .section {
-    padding: 85px 0 25px 0;
+    padding: 90px 0 25px 0;
   }
 }
 
@@ -272,21 +272,76 @@ body {
   margin-bottom: 20px;
 }
 
-.header {
+#google_translate_element2 {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  #google_translate_element2 {
+    position: absolute;
+    margin: 0;
+    top: 5px;
+    right: 0;
+  }
+}
+
+.google-translate {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+  height: 25px;
+}
+
+#google_translate_element {
+  display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-te-combo {
+  margin: 0 !important;
   background-color: var(--second-background-color);
+  border-color: var(--text-yellow-color);
+  color: var(--text-yellow-color);
+  font-size: 12px !important;
+}
+
+.header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  background-color: var(--second-background-color);
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 10px;
+  }
 }
 
 .header__container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .header__logo-wrapper {
-  width: 60px;
+  width: 70px;
   position: relative;
   z-index: 30;
 }
@@ -294,6 +349,7 @@ body {
 .mobile-menu-burger {
   display: block;
   position: relative;
+  margin: 0 auto;
   z-index: 30;
   width: 30px;
   height: 21px;
@@ -495,7 +551,7 @@ body {
 
 .hero {
   background-color: var(--text-yellow-color);
-  padding-top: 48px;
+  padding-top: 70px;
 }
 
 @media screen and (min-width: 768px) {
