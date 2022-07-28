@@ -1,3 +1,46 @@
 .img-hands {
   margin-top: 50px;
 }
+
+.team-member__item {
+  padding: 10px 10px 20px 10px;
+  &:not(:last-child) {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 20px;
+    }
+  }
+  text-align: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.team-member__foto {
+  margin-bottom: 10px;
+}
+
+.team-member__name {
+  font-size: 20px;
+}
+
+.team-member__position {
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .team-member__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+
+  .team-member__item {
+    width: calc((100% - 40px) / 2);
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-member__item {
+    width: calc((100% - 60px) / 3);
+  }
+}
