@@ -3,8 +3,8 @@
   @media screen and (min-width: 1200px) {
     position: absolute;
     margin: 0;
-    top: 5px;
-    right: 0;
+    top: 33px;
+    right: 15px;
   }
 }
 .google-translate {
@@ -61,7 +61,7 @@ body {
   justify-content: space-between;
 
   @media screen and (min-width: 1200px) {
-    padding-top: 10px;
+    // padding-top: 10px;
   }
 }
 
@@ -290,7 +290,7 @@ body {
   }
 
   .mobile-menu__navigation {
-    margin-right: 110px;
+    margin-right: 150px;
   }
 
   .navigation__list {
