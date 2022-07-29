@@ -290,7 +290,7 @@ body {
   }
 
   .mobile-menu__navigation {
-    margin-right: 35px;
+    margin-right: 110px;
   }
 
   .navigation__list {
@@ -308,6 +308,7 @@ body {
   }
 
   .contacts {
+    display: none;
     & li:not(:last-child) {
       margin-bottom: 10px;
     }

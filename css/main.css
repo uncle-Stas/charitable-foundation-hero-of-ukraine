@@ -538,7 +538,7 @@ body {
     color: var(--text-yellow-color);
   }
   .mobile-menu__navigation {
-    margin-right: 35px;
+    margin-right: 110px;
   }
   .navigation__list {
     display: flex;
@@ -550,6 +550,9 @@ body {
   }
   .navigation__item:not(:last-child) {
     margin-right: 30px;
+  }
+  .contacts {
+    display: none;
   }
   .contacts li:not(:last-child) {
     margin-bottom: 10px;
