@@ -1,0 +1,30 @@
+.social-links__wrapper {
+  display: flex;
+}
+
+.instagram-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: box-shadow 300ms linear;
+  margin-right: 10px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 4px 4px rgba(0, 0, 0, 0.3),
+      1px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.tiktok-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: box-shadow 300ms linear;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 4px 4px rgba(0, 0, 0, 0.3),
+      1px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+}
